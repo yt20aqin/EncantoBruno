@@ -1,4 +1,7 @@
+name: GameCI Template 🎮
+
 on: push
+
 jobs:
   signme:
     name: sign aab
