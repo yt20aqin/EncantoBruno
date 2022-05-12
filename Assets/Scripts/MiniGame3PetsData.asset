@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c8c5bfebba6dba4b88d8293e77b9ade, type: 3}
+  m_Name: MiniGame3PetsData
+  m_EditorClassIdentifier: 
+  pets:
+  - {fileID: 1231662603138242, guid: b1dcca0040dd5194ab2ee151b47aaca4, type: 3}
+  - {fileID: 1158039954778482, guid: 6ba50b92435a66946b18c9d830daec9b, type: 3}
+  - {fileID: 1595996193684330, guid: 7f459238a9df18e47a5e2f71c309b13b, type: 3}
+  - {fileID: 1161411684621720, guid: 63e87f4c40d371b449d56b9711af967e, type: 3}

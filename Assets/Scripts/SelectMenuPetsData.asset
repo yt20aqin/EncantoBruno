@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c8c5bfebba6dba4b88d8293e77b9ade, type: 3}
+  m_Name: SelectMenuPetsData
+  m_EditorClassIdentifier: 
+  pets:
+  - {fileID: 1542333014236368, guid: 584cbcf50f198104b84781e2df489cfc, type: 3}
+  - {fileID: 1773916784552932, guid: dfd946b5d3bd0c64383e854b3353e4ce, type: 3}
+  - {fileID: 1246477161489686, guid: 799ec89c7b5196d43a7115ce86917c9d, type: 3}
+  - {fileID: 1268618868894718, guid: 8294330d0bcf36e4684a219fd1e41dbd, type: 3}
