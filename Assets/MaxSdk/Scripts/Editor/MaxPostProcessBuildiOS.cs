@@ -91,7 +91,8 @@ namespace AppLovinMax.Scripts.Editor
         {
             get
             {
-                var swiftLanguageNetworks = new List<string>(1);
+                var swiftLanguageNetworks = new List<string>(2);
+                swiftLanguageNetworks.Add("MoPub");
                 if (ShouldAddSwiftSupportForFacebook())
                 {
                     swiftLanguageNetworks.Add("Facebook");
@@ -104,6 +105,7 @@ namespace AppLovinMax.Scripts.Editor
         private static readonly List<string> EmbedSwiftStandardLibrariesNetworks = new List<string>
         {
             "Facebook",
+            "MoPub"
         };
 
         private static string PluginMediationDirectory

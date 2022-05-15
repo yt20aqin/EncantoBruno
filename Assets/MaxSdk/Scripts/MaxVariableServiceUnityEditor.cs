@@ -11,8 +11,8 @@ public class MaxVariableServiceUnityEditor
     /// Explicitly retrieve the latest variables from the server.
     /// Please make sure to implement the callback <see cref="MaxSdkCallbacks.OnVariablesUpdatedEvent"/>.
     /// </summary>
-    public void LoadVariables() { }
-
+    public void LoadVariables() {}
+    
     /// <summary>
     /// Returns the variable value associated with the given key, or false if no mapping of the desired type exists for the given key.
     /// </summary>

@@ -260,7 +260,7 @@ public class MaxSdkUtils
 
             // Dynamically construct generic type with string argument.
             // The type T must have a constructor that creates a new object from an info string, i.e., new T(infoString)
-            var instance = (T)Activator.CreateInstance(typeof(T), dictionary);
+            var instance = (T) Activator.CreateInstance(typeof(T), dictionary);
             result.Add(instance);
         }
 
@@ -272,10 +272,10 @@ public class MaxSdkUtils
     /// </summary>
     public static String ParseColor(Color color)
     {
-        int a = (int)(Mathf.Clamp01(color.a) * Byte.MaxValue);
-        int r = (int)(Mathf.Clamp01(color.r) * Byte.MaxValue);
-        int g = (int)(Mathf.Clamp01(color.g) * Byte.MaxValue);
-        int b = (int)(Mathf.Clamp01(color.b) * Byte.MaxValue);
+        int a = (int) (Mathf.Clamp01(color.a) * Byte.MaxValue);
+        int r = (int) (Mathf.Clamp01(color.r) * Byte.MaxValue);
+        int g = (int) (Mathf.Clamp01(color.g) * Byte.MaxValue);
+        int b = (int) (Mathf.Clamp01(color.b) * Byte.MaxValue);
 
         return BitConverter.ToString(new[]
         {
@@ -422,7 +422,7 @@ public class MaxSdkUtils
         var versionABetaNumber = 0;
         if (isVersionABeta)
         {
-            var components = versionA.Split(new[] { "-beta" }, StringSplitOptions.None);
+            var components = versionA.Split(new[] {"-beta"}, StringSplitOptions.None);
             versionA = components[0];
             versionABetaNumber = int.TryParse(components[1], out piece) ? piece : 0;
         }
@@ -431,7 +431,7 @@ public class MaxSdkUtils
         var versionBBetaNumber = 0;
         if (isVersionBBeta)
         {
-            var components = versionB.Split(new[] { "-beta" }, StringSplitOptions.None);
+            var components = versionB.Split(new[] {"-beta"}, StringSplitOptions.None);
             versionB = components[0];
             versionBBetaNumber = int.TryParse(components[1], out piece) ? piece : 0;
         }

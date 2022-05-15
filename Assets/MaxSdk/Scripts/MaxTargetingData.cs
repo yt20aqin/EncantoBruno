@@ -15,7 +15,7 @@ public class MaxTargetingData
     /// This enumeration represents content ratings for the ads shown to users.
     /// They correspond to IQG Media Ratings.
     /// </summary>
-    public enum AdContentRating
+     public enum AdContentRating
     {
         None,
         AllAudiences,
@@ -55,15 +55,15 @@ public class MaxTargetingData
         set
         {
             string genderString = "";
-            if (value == UserGender.Female)
+            if ( value == UserGender.Female )
             {
                 genderString = "F";
             }
-            else if (value == UserGender.Male)
+            else if ( value == UserGender.Male )
             {
                 genderString = "M";
             }
-            else if (value == UserGender.Other)
+            else if ( value == UserGender.Other )
             {
                 genderString = "O";
             }
@@ -80,7 +80,7 @@ public class MaxTargetingData
     {
         set
         {
-            MaxSdk.SetTargetingDataMaximumAdContentRating((int)value);
+            MaxSdk.SetTargetingDataMaximumAdContentRating((int) value);
         }
     }
 

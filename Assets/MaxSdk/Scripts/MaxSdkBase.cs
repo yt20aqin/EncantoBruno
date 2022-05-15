@@ -354,7 +354,7 @@ public abstract class MaxSdkBase
 
             Credentials = MaxSdkUtils.GetDictionaryFromDictionary(networkResponseInfoDict, "credentials", new Dictionary<string, object>());
             LatencyMillis = MaxSdkUtils.GetLongFromDictionary(networkResponseInfoDict, "latencyMillis");
-            AdLoadState = (MaxAdLoadState)MaxSdkUtils.GetIntFromDictionary(networkResponseInfoDict, "adLoadState");
+            AdLoadState = (MaxAdLoadState) MaxSdkUtils.GetIntFromDictionary(networkResponseInfoDict, "adLoadState");
 
             var errorInfoDict = MaxSdkUtils.GetDictionaryFromDictionary(networkResponseInfoDict, "error");
             Error = errorInfoDict != null ? new ErrorInfo(errorInfoDict) : null;
@@ -416,7 +416,7 @@ public abstract class MaxSdkBase
         {
             Message = MaxSdkUtils.GetStringFromDictionary(errorInfoDictionary, "errorMessage", "");
             AdLoadFailureInfo = MaxSdkUtils.GetStringFromDictionary(errorInfoDictionary, "adLoadFailureInfo", "");
-            Code = (ErrorCode)MaxSdkUtils.GetIntFromDictionary(errorInfoDictionary, "errorCode", -1);
+            Code = (ErrorCode) MaxSdkUtils.GetIntFromDictionary(errorInfoDictionary, "errorCode", -1);
             WaterfallInfo = new WaterfallInfo(MaxSdkUtils.GetDictionaryFromDictionary(errorInfoDictionary, "waterfallInfo", new Dictionary<string, object>()));
         }
 

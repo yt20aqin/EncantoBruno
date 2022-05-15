@@ -21,7 +21,7 @@ namespace AppLovinMax.Scripts.IntegrationManager.Editor
         public const string KeyAutoUpdateEnabled = "com.applovin.auto_update_enabled";
         private const string KeyLastUpdateCheckTime = "com.applovin.last_update_check_time_v2"; // Updated to v2 to force adapter version checks in plugin version 3.1.10.
         private static readonly DateTime EpochTime = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
-        private static readonly int SecondsInADay = (int)TimeSpan.FromDays(1).TotalSeconds;
+        private static readonly int SecondsInADay = (int) TimeSpan.FromDays(1).TotalSeconds;
 
         // TODO: Make this list dynamic.
         public static readonly Dictionary<string, string> MinAdapterVersions = new Dictionary<string, string>()
@@ -49,7 +49,7 @@ namespace AppLovinMax.Scripts.IntegrationManager.Editor
         /// </summary>
         public static void Update()
         {
-            var now = (int)(DateTime.UtcNow - EpochTime).TotalSeconds;
+            var now = (int) (DateTime.UtcNow - EpochTime).TotalSeconds;
             if (EditorPrefs.HasKey(KeyLastUpdateCheckTime))
             {
                 var elapsedTime = now - EditorPrefs.GetInt(KeyLastUpdateCheckTime);

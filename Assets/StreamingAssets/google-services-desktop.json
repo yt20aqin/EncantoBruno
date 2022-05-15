@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "617869422011",
-    "firebase_url": "https://nastya-b6fd7-default-rtdb.firebaseio.com",
-    "project_id": "nastya-b6fd7",
-    "storage_bucket": "nastya-b6fd7.appspot.com"
+    "project_number": "445604746054",
+    "firebase_url": "https://bely-y-beto-e64c9-default-rtdb.firebaseio.com",
+    "project_id": "bely-y-beto-e64c9",
+    "storage_bucket": "bely-y-beto-e64c9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:617869422011:android:c2f1c4daab92425a22289e",
+        "mobilesdk_app_id": "1:445604746054:android:550dcc0a191cb034a84b47",
         "android_client_info": {
-          "package_name": "com.likenastyagame.nastyaspiele"
+          "package_name": "com.MyBelycoloringBeto.BelyyBeto"
         }
       },
       "oauth_client": [
         {
-          "client_id": "617869422011-13hl8q43nvicrlc4ic1tp50qm612nilk.apps.googleusercontent.com",
+          "client_id": "445604746054-dmegev4a4920mmk546rm2mcahnuntsub.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDQbx--OIR_vCyBbCzwPnkWXGcpspvD1Fw"
+          "current_key": "AIzaSyATzsu1C2Y2QBjFLIAnMh7m0sLNMAXmLhA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "617869422011-13hl8q43nvicrlc4ic1tp50qm612nilk.apps.googleusercontent.com",
+              "client_id": "445604746054-dmegev4a4920mmk546rm2mcahnuntsub.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -402,7 +402,7 @@ public class MaxSdkAndroid : MaxSdkBase
         }
 
         ValidateAdUnitIdentifier(adUnitIdentifier, "set banner local extra parameter");
-        MaxUnityPluginClass.CallStatic("setBannerLocalExtraParameter", adUnitIdentifier, key, (AndroidJavaObject)value);
+        MaxUnityPluginClass.CallStatic("setBannerLocalExtraParameter", adUnitIdentifier, key, (AndroidJavaObject) value);
     }
 
     /// <summary>
@@ -573,7 +573,7 @@ public class MaxSdkAndroid : MaxSdkBase
         }
 
         ValidateAdUnitIdentifier(adUnitIdentifier, "set MREC local extra parameter");
-        MaxUnityPluginClass.CallStatic("setMRecLocalExtraParameter", adUnitIdentifier, key, (AndroidJavaObject)value);
+        MaxUnityPluginClass.CallStatic("setMRecLocalExtraParameter", adUnitIdentifier, key, (AndroidJavaObject) value);
     }
 
     /// <summary>
@@ -766,7 +766,7 @@ public class MaxSdkAndroid : MaxSdkBase
         }
 
         ValidateAdUnitIdentifier(adUnitIdentifier, "set interstitial local extra parameter");
-        MaxUnityPluginClass.CallStatic("setInterstitialLocalExtraParameter", adUnitIdentifier, key, (AndroidJavaObject)value);
+        MaxUnityPluginClass.CallStatic("setInterstitialLocalExtraParameter", adUnitIdentifier, key, (AndroidJavaObject) value);
     }
 
     #endregion
@@ -841,7 +841,7 @@ public class MaxSdkAndroid : MaxSdkBase
         }
 
         ValidateAdUnitIdentifier(adUnitIdentifier, "set rewarded ad local extra parameter");
-        MaxUnityPluginClass.CallStatic("setRewardedAdLocalExtraParameter", adUnitIdentifier, key, (AndroidJavaObject)value);
+        MaxUnityPluginClass.CallStatic("setRewardedAdLocalExtraParameter", adUnitIdentifier, key, (AndroidJavaObject) value);
     }
 
     #endregion
@@ -916,7 +916,7 @@ public class MaxSdkAndroid : MaxSdkBase
         }
 
         ValidateAdUnitIdentifier(adUnitIdentifier, "set rewarded interstitial ad local extra parameter");
-        MaxUnityPluginClass.CallStatic("setRewardedInterstitialAdLocalExtraParameter", adUnitIdentifier, key, (AndroidJavaObject)value);
+        MaxUnityPluginClass.CallStatic("setRewardedInterstitialAdLocalExtraParameter", adUnitIdentifier, key, (AndroidJavaObject) value);
     }
 
     #endregion
@@ -994,7 +994,7 @@ public class MaxSdkAndroid : MaxSdkBase
     public static void SetTestDeviceAdvertisingIdentifiers(string[] advertisingIdentifiers)
     {
         // Wrap the string array in an object array, so the compiler does not split into multiple strings.
-        object[] arguments = { advertisingIdentifiers };
+        object[] arguments = {advertisingIdentifiers};
         MaxUnityPluginClass.CallStatic("setTestDeviceAdvertisingIds", arguments);
     }
 
@@ -1063,14 +1063,14 @@ public class MaxSdkAndroid : MaxSdkBase
     internal static void SetTargetingDataKeywords(string[] keywords)
     {
         // Wrap the string array in an object array, so the compiler does not split into multiple strings.
-        object[] arguments = { keywords };
+        object[] arguments = {keywords};
         MaxUnityPluginClass.CallStatic("setTargetingDataKeywords", arguments);
     }
 
     internal static void SetTargetingDataInterests(string[] interests)
     {
         // Wrap the string array in an object array, so the compiler does not split into multiple strings.
-        object[] arguments = { interests };
+        object[] arguments = {interests};
         MaxUnityPluginClass.CallStatic("setTargetingDataInterests", arguments);
     }
 
@@ -1092,7 +1092,7 @@ public class MaxSdkAndroid : MaxSdkBase
                 "MAX Ads SDK has not been initialized yet. GetConsentDialogState() may return ConsentDialogState.Unknown");
         }
 
-        return (ConsentDialogState)MaxUnityPluginClass.CallStatic<int>("getConsentDialogState");
+        return (ConsentDialogState) MaxUnityPluginClass.CallStatic<int>("getConsentDialogState");
     }
 
     [Obsolete("This method has been deprecated. The AdInfo object is returned with ad callbacks.")]

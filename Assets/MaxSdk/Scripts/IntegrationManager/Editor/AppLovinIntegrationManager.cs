@@ -86,7 +86,7 @@ namespace AppLovinMax.Scripts.IntegrationManager.Editor
 
         public override int GetHashCode()
         {
-            return new { Unity, Android, Ios }.GetHashCode();
+            return new {Unity, Android, Ios}.GetHashCode();
         }
 
         private static string AdapterSdkVersion(string adapterVersion)

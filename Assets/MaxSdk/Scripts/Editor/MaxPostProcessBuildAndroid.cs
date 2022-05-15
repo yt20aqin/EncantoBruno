@@ -72,7 +72,7 @@ namespace AppLovinMax.Scripts.Editor
                 MaxSdkLogger.UserError("Failed to enable AndroidX and Jetifier. gradle.properties file write failed.");
                 Console.WriteLine(exception);
             }
-
+            
             EnableVerboseLoggingIfNeeded(path);
         }
 
@@ -121,7 +121,7 @@ namespace AppLovinMax.Scripts.Editor
                                                                                   descendant.FirstAttribute.Value.Equals(AppLovinVerboseLoggingOnKey) &&
                                                                                   descendant.LastAttribute != null &&
                                                                                   descendant.LastAttribute.Name.LocalName.Equals("value"));
-
+            
             // check if applovin.sdk.verbose_logging meta data exists.
             if (verboseLoggingMetaData != null)
             {

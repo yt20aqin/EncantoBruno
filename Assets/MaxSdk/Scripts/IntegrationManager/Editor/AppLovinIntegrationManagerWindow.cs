@@ -102,7 +102,7 @@ namespace AppLovinMax.Scripts.IntegrationManager.Editor
             linkLabelStyle = new GUIStyle(EditorStyles.label)
             {
                 wordWrap = true,
-                normal = { textColor = EditorGUIUtility.isProSkin ? darkModeTextColor : Color.blue }
+                normal = {textColor = EditorGUIUtility.isProSkin ? darkModeTextColor : Color.blue}
             };
 
             wrapTextLabelStyle = new GUIStyle(EditorStyles.label)
@@ -441,11 +441,11 @@ namespace AppLovinMax.Scripts.IntegrationManager.Editor
 
                 if (network.RequiresUpdate)
                 {
-                    GUILayout.Label(new GUIContent { image = alertIcon, tooltip = "Adapter not compatible, please update to the latest version." }, iconStyle);
+                    GUILayout.Label(new GUIContent {image = alertIcon, tooltip = "Adapter not compatible, please update to the latest version."}, iconStyle);
                 }
                 else if ((network.Name.Equals("ADMOB_NETWORK") || network.Name.Equals("GOOGLE_AD_MANAGER_NETWORK")) && shouldShowGoogleWarning)
                 {
-                    GUILayout.Label(new GUIContent { image = warningIcon, tooltip = "You may see unexpected errors if you use different versions of the AdMob and Google Ad Manager adapter SDKs." }, iconStyle);
+                    GUILayout.Label(new GUIContent {image = warningIcon, tooltip = "You may see unexpected errors if you use different versions of the AdMob and Google Ad Manager adapter SDKs."}, iconStyle);
                 }
 
                 GUI.enabled = isActionEnabled;
@@ -459,7 +459,7 @@ namespace AppLovinMax.Scripts.IntegrationManager.Editor
                 GUILayout.Space(2);
 
                 GUI.enabled = isInstalled;
-                if (GUILayout.Button(new GUIContent { image = uninstallIcon, tooltip = "Uninstall" }, iconStyle))
+                if (GUILayout.Button(new GUIContent {image = uninstallIcon, tooltip = "Uninstall"}, iconStyle))
                 {
                     EditorUtility.DisplayProgressBar("Integration Manager", "Deleting " + network.Name + "...", 0.5f);
                     var pluginRoot = AppLovinIntegrationManager.MediationSpecificPluginParentDirectory;
