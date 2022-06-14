@@ -243,15 +243,15 @@ PlayerSettings:
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
   useCustomLauncherGradleManifest: 0
-  useCustomBaseGradleTemplate: 1
+  useCustomBaseGradleTemplate: 0
   useCustomGradlePropertiesTemplate: 0
   useCustomProguardFile: 0
   AndroidTargetArchitectures: 3
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 2800000, guid: 365cba046a7f843039d8ec2ba88b407a, type: 3}
-  AndroidKeystoreName: C:/Users/medfa/Documents/Apps projects/test2.keystore
-  AndroidKeyaliasName: test2
+  AndroidKeystoreName: '{inproject}: useqqqr.keystore'
+  AndroidKeyaliasName: fsq
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
@@ -792,10 +792,16 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 6ea046c8-a34a-429b-912e-4e57bff08a8a
+  cloudProjectId: f54f6629-847e-410e-a997-9b8a2c3886b0
   framebufferDepthMemorylessMode: 0
-  qualitySettingsNames: []
-  projectName: nastya
+  qualitySettingsNames:
+  - Fastest
+  - Fast
+  - Simple
+  - Good
+  - Beautiful
+  - Fantastic
+  projectName: diana
   organizationId: yt20aqin
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

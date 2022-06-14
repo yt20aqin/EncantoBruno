@@ -316,7 +316,7 @@ public class dariustovar : MonoBehaviour
 
     public void OpenPrivacyPolicyLink()
     {
-        Application.OpenURL(basilfarmer.Instance.junelu);
+      //  Application.OpenURL(basilfarmer.Instance.junelu);
     }
 
 }

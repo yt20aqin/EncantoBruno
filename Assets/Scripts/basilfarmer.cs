@@ -9,27 +9,26 @@ using UnityEngine.UI;
 public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnityAdsLoadListener, IUnityAdsShowListener
 {
 
-    public string junelu;
-    public GameObject beatrizpratt;
+    public string michellefinch;
+    public GameObject ernestinelay;
 
     #region AdMob
     [Header("Admob")]
-    public string theresamaddox = "";
-    public string fayeswain = "";
-    public string jillianomalley = "";
+    public string elisabeaver = "";
+    public string denicebermudez = "";
+    public string twilagould = "";
 
     #endregion
     [Space(15)]
     #region
     [Header("UnityAds")]
-    public string lynettebyers;
+    public string shawnamclaughlin;
     public string unityAdsVideoPlacementId = "rewardedVideo";
     #endregion
 
     static basilfarmer instance;
 
     public static int unlockID;
-    public static rolandobryson itemToUnlock;
 
     public static basilfarmer Instance
     {
@@ -47,13 +46,19 @@ public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnit
     public static bool isApplovin = false;
     public static bool isUnityads = false;
     public static bool isadmob = false;
+    string applovinads = "572749a05cdf09f6";
+    string gameId = "4798231";
+
+    string fbnetwordinter = "";
+    public static string firebaselink = "https://diana-73733-default-rtdb.firebaseio.com";
+    public static string Homenamescene = "MainScene";
 
 
     void CheckAds()
     {
         UnityEngine.Debug.Log("XReceived CheckAdss ");
 
-        FirebaseDatabase.GetInstance("https://test-a5331-default-rtdb.firebaseio.com/")
+        FirebaseDatabase.GetInstance(firebaselink)
       .GetReference("MyMob")
       .GetValueAsync().ContinueWith(task =>
       {
@@ -72,10 +77,10 @@ public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnit
                   isfbads = (bool)snapshot.Child("isfbads").Value;
                   isApplovin = (bool)snapshot.Child("isApplovin").Value;
                   isUnityads = (bool)snapshot.Child("isUnityads").Value;
-                  
 
-                  
-                   UnityEngine.Debug.Log("XReceived data sucsess isfbads " + isfbads.ToString());
+
+
+                  UnityEngine.Debug.Log("XReceived data sucsess isfbads " + isfbads.ToString());
                   UnityEngine.Debug.Log("XReceived data sucsess isApplovin " + isApplovin.ToString());
                   UnityEngine.Debug.Log("XReceived data sucsess isUnityads " + isUnityads.ToString());
 
@@ -113,14 +118,15 @@ public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnit
         LoadApplovin();
         InitializeAdsUnity();
         LoadAdUnity();
-        
+
+  
+
     }
 
 
 
 
 
-    string dorapadgett = "ff8f1f9580727170";
     int claudinealonso;
 
     public void LoadApplovin()
@@ -139,7 +145,7 @@ public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnit
 
     private void LoadInterstitial()
     {
-        MaxSdk.LoadInterstitial(dorapadgett);
+        MaxSdk.LoadInterstitial(applovinads);
     }
 
     private void OnInterstitialLoadedEvent(string dorapadgett, MaxSdkBase.AdInfo adInfo)
@@ -180,7 +186,7 @@ public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnit
 
     public void ShowInterstitial()
     {
-        Debug.Log("ZOVEM INTERSTITIAL");
+        Debug.Log("888888888888888888");
         ShowAdMob();
     }
 
@@ -198,35 +204,35 @@ public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnit
 
     bool isVideoAvaiable()
     {
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
         return false;
     }
 
     public void ShowVideoReward(int ID)
     {
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
     }
 
     public void ShowApplovin()
     {
 
-        if (MaxSdk.IsInterstitialReady(dorapadgett))
+        if (MaxSdk.IsInterstitialReady(applovinads))
         {
-            MaxSdk.ShowInterstitial(dorapadgett);
+            MaxSdk.ShowInterstitial(applovinads);
         }
         else
         {
@@ -245,7 +251,7 @@ public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnit
         {
             ShowAdUnity();
         }
-        else if (isfbads )
+        else if (isfbads)
         {
             ShowInterstitialfb();
         }
@@ -317,26 +323,23 @@ public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnit
 
     public void VideoRewarded()
     {
-        itemToUnlock.locked = false;
-        itemToUnlock.gameObject.transform.Find("LockImage").GetComponent<Image>().enabled = false;
-        lanepitts.kimberleearagon.Add(unlockID);
-        lanepitts.lawandagill();
+
     }
 
 
-    
+
     private AudienceNetwork.InterstitialAd interstitialAd;
-    private bool letharizzo;
+    private bool bobbieneumann;
     public void LoadInterstitialfb()
     {
-        this.interstitialAd = new AudienceNetwork.InterstitialAd("551171613063318_551172029729943");
+        this.interstitialAd = new AudienceNetwork.InterstitialAd(fbnetwordinter);
         this.interstitialAd.Register(this.gameObject);
 
-        
+
         this.interstitialAd.InterstitialAdDidLoad = (delegate ()
         {
             Debug.Log("Interstitial ad loaded.");
-            this.letharizzo = true;
+            this.bobbieneumann = true;
         });
         interstitialAd.InterstitialAdDidFailWithError = (delegate (string error)
         {
@@ -360,16 +363,16 @@ public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnit
             }
         });
 
-        
+
         this.interstitialAd.LoadAd();
     }
 
     public void ShowInterstitialfb()
     {
-        if (this.letharizzo)
+        if (this.bobbieneumann)
         {
             this.interstitialAd.Show();
-            this.letharizzo = false;
+            this.bobbieneumann = false;
 
         }
         else
@@ -379,8 +382,7 @@ public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnit
     }
 
 
-    
-    string gameId = "4742728";
+
     string _adUnitId = "Interstitial_Android";
     public void InitializeAdsUnity()
     {
@@ -400,35 +402,35 @@ public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnit
 
     public void LoadAdUnity()
     {
-        
+
         Debug.Log("Loading Ad: " + _adUnitId);
         Advertisement.Load(_adUnitId, this);
     }
 
-    
+
     public void ShowAdUnity()
     {
-        
+
         Debug.Log("Showing Ad: " + _adUnitId);
         Advertisement.Show(_adUnitId, this);
     }
 
-    
+
     public void OnUnityAdsAdLoaded(string adUnitId)
     {
-        
+
     }
 
     public void OnUnityAdsFailedToLoad(string adUnitId, UnityAdsLoadError error, string message)
     {
         Debug.Log($"Error loading Ad Unit: {adUnitId} - {error.ToString()} - {message}");
-        
+
     }
 
     public void OnUnityAdsShowFailure(string adUnitId, UnityAdsShowError error, string message)
     {
         Debug.Log($"Error showing Ad Unit {adUnitId}: {error.ToString()} - {message}");
-        
+
     }
 
     public void OnUnityAdsShowStart(string adUnitId) { }
@@ -436,12 +438,12 @@ public class basilfarmer : MonoBehaviour, IUnityAdsInitializationListener, IUnit
     public void OnUnityAdsShowComplete(string adUnitId, UnityAdsShowCompletionState showCompletionState) { }
 
 
-    
+
 
     void initadmob()
     {
-        
-        
+
+
     }
 
 

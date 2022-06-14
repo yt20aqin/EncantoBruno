@@ -35,9 +35,10 @@
     <file>Assets/Plugins/Android/androidx.arch.core.core-common-2.1.0.jar</file>
     <file>Assets/Plugins/Android/androidx.arch.core.core-runtime-2.0.0.aar</file>
     <file>Assets/Plugins/Android/androidx.asynclayoutinflater.asynclayoutinflater-1.0.0.aar</file>
-    <file>Assets/Plugins/Android/androidx.browser.browser-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/androidx.browser.browser-1.4.0.aar</file>
     <file>Assets/Plugins/Android/androidx.cardview.cardview-1.0.0.aar</file>
     <file>Assets/Plugins/Android/androidx.collection.collection-1.1.0.jar</file>
+    <file>Assets/Plugins/Android/androidx.concurrent.concurrent-futures-1.0.0.jar</file>
     <file>Assets/Plugins/Android/androidx.coordinatorlayout.coordinatorlayout-1.0.0.aar</file>
     <file>Assets/Plugins/Android/androidx.core.core-1.3.2.aar</file>
     <file>Assets/Plugins/Android/androidx.core.core-ktx-1.3.2.aar</file>
@@ -57,9 +58,9 @@
     <file>Assets/Plugins/Android/androidx.lifecycle.lifecycle-viewmodel-2.1.0.aar</file>
     <file>Assets/Plugins/Android/androidx.loader.loader-1.0.0.aar</file>
     <file>Assets/Plugins/Android/androidx.localbroadcastmanager.localbroadcastmanager-1.0.0.aar</file>
-    <file>Assets/Plugins/Android/androidx.media.media-1.2.1.aar</file>
+    <file>Assets/Plugins/Android/androidx.media.media-1.3.1.aar</file>
     <file>Assets/Plugins/Android/androidx.print.print-1.0.0.aar</file>
-    <file>Assets/Plugins/Android/androidx.recyclerview.recyclerview-1.1.0.aar</file>
+    <file>Assets/Plugins/Android/androidx.recyclerview.recyclerview-1.2.1.aar</file>
     <file>Assets/Plugins/Android/androidx.savedstate.savedstate-1.0.0.aar</file>
     <file>Assets/Plugins/Android/androidx.slidingpanelayout.slidingpanelayout-1.0.0.aar</file>
     <file>Assets/Plugins/Android/androidx.swiperefreshlayout.swiperefreshlayout-1.0.0.aar</file>
@@ -68,8 +69,8 @@
     <file>Assets/Plugins/Android/androidx.versionedparcelable.versionedparcelable-1.1.0.aar</file>
     <file>Assets/Plugins/Android/androidx.viewpager.viewpager-1.0.0.aar</file>
     <file>Assets/Plugins/Android/com.android.installreferrer.installreferrer-1.0.aar</file>
-    <file>Assets/Plugins/Android/com.applovin.applovin-sdk-11.3.3.aar</file>
-    <file>Assets/Plugins/Android/com.facebook.android.audience-network-sdk-6.10.0.aar</file>
+    <file>Assets/Plugins/Android/com.applovin.applovin-sdk-11.4.3.aar</file>
+    <file>Assets/Plugins/Android/com.facebook.android.audience-network-sdk-6.11.0.aar</file>
     <file>Assets/Plugins/Android/com.facebook.android.facebook-applinks-11.3.0.aar</file>
     <file>Assets/Plugins/Android/com.facebook.android.facebook-common-11.3.0.aar</file>
     <file>Assets/Plugins/Android/com.facebook.android.facebook-core-11.3.0.aar</file>
@@ -77,17 +78,18 @@
     <file>Assets/Plugins/Android/com.facebook.android.facebook-login-11.3.0.aar</file>
     <file>Assets/Plugins/Android/com.facebook.android.facebook-share-11.3.0.aar</file>
     <file>Assets/Plugins/Android/com.google.android.datatransport.transport-api-3.0.0.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.datatransport.transport-backend-cct-3.1.4.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.datatransport.transport-runtime-3.1.4.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-2.13.3.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-common-2.13.3.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-core-2.13.3.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-dash-2.13.3.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-extractor-2.13.3.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-hls-2.13.3.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-smoothstreaming-2.13.3.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-transformer-2.13.3.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-ui-2.13.3.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.datatransport.transport-backend-cct-3.1.5.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.datatransport.transport-runtime-3.1.5.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-2.15.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-common-2.15.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-core-2.15.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-dash-2.15.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-extractor-2.15.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-hls-2.15.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-rtsp-2.15.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-smoothstreaming-2.15.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-transformer-2.15.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.exoplayer.exoplayer-ui-2.15.1.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-ads-identifier-18.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-auth-api-phone-17.4.0.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-base-18.0.1.aar</file>
@@ -108,7 +110,7 @@
     <file>Assets/Plugins/Android/com.google.firebase.firebase-annotations-16.0.0.jar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-appcheck-interop-16.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-app-unity-8.9.0.aar</file>
-    <file>Assets/Plugins/Android/com.google.firebase.firebase-auth-21.0.3.aar</file>
+    <file>Assets/Plugins/Android/com.google.firebase.firebase-auth-21.0.5.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-auth-interop-20.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-auth-unity-8.9.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-common-20.1.1.aar</file>
@@ -116,7 +118,7 @@
     <file>Assets/Plugins/Android/com.google.firebase.firebase-database-20.0.5.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-database-collection-18.0.1.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-database-unity-8.9.0.aar</file>
-    <file>Assets/Plugins/Android/com.google.firebase.firebase-datatransport-18.1.3.aar</file>
+    <file>Assets/Plugins/Android/com.google.firebase.firebase-datatransport-18.1.4.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-encoders-17.0.0.jar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-encoders-json-18.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-encoders-proto-16.0.0.jar</file>
@@ -125,7 +127,7 @@
     <file>Assets/Plugins/Android/com.google.firebase.firebase-installations-17.0.1.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-installations-interop-17.0.1.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-19.0.0.aar</file>
-    <file>Assets/Plugins/Android/com.google.firebase.firebase-messaging-23.0.4.aar</file>
+    <file>Assets/Plugins/Android/com.google.firebase.firebase-messaging-23.0.5.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-messaging-unity-8.9.0.aar</file>
     <file>Assets/Plugins/Android/com.google.guava.failureaccess-1.0.1.jar</file>
     <file>Assets/Plugins/Android/com.google.guava.guava-27.1-android.jar</file>
@@ -143,7 +145,7 @@
   </files>
   <settings>
     <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
-    <setting name="bundleId" value="com.likenastyagame.nastyaspiele" />
+    <setting name="bundleId" value="com.LoveDianaGame.DianaSpiele" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradlePropertiesTemplateEnabled" value="False" />

@@ -99,7 +99,7 @@ public class rolandobryson : MonoBehaviour
         else
         {
             basilfarmer.unlockID = lockIndex;
-            basilfarmer.itemToUnlock = this;
+            //basilfarmer.itemToUnlock = this;
             basilfarmer.Instance.ShowVideoReward(lanepitts.marierowland);
 
         }
