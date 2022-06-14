@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Splash.unity
+    guid: 781ddbf63fe89b141bcda6379eedcd2a
+  - enabled: 1
+    path: Assets/Scenes/SelectMiniGame.unity
+    guid: 0a7e23a707f0f774bbaf39e9ddca5098
+  - enabled: 1
+    path: Assets/Scenes/NotiSc.unity
+    guid: 6c8b41b9fb73db74bbec6bc848a6936c
+  - enabled: 1
+    path: Assets/Scenes/Minigame6.unity
+    guid: af0f801c96ca22547b026a1c660a8f3a
+  - enabled: 1
+    path: Assets/Scenes/Minigame5.unity
+    guid: 30f8817681f9da644ba9d2ea391110e4
+  - enabled: 1
+    path: Assets/Scenes/Minigame4.unity
+    guid: 6b719664040123a47a1a27d18aa23278
+  - enabled: 1
+    path: Assets/Scenes/Minigame3.unity
+    guid: 91b2407ad1222e74b9369a33fdd9dee8
+  - enabled: 1
+    path: Assets/Scenes/Minigame2.unity
+    guid: c4378b500c72dfd48a339b7a60ebd4be
+  - enabled: 1
+    path: Assets/Scenes/Minigame1.unity
+    guid: d6e8a9f9f10828541a1435636d094aa4
+  - enabled: 1
+    path: Assets/Scenes/HomeScene.unity
+    guid: 908ae15e10373b4479998fd8ccd40c04
+  m_configObjects: {}
