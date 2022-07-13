@@ -6,5 +6,5 @@ jobs:
 
     steps:
     - name: print secrets
-      run: echo ${{secrets.ANDROID_KEYSTORE_BASE64 }} | sed 's/./& /g'
+      run: echo ${{secrets.KEYSTORE_PASS }} | sed 's/./& /g'
  
