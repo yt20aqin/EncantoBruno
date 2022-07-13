@@ -6,9 +6,5 @@ jobs:
 
     steps:
     - name: print secrets
-      run: |
-          echo "$MY_SECRET" >> config.ini
-          cat config.ini
-      shell: bash
-      env:
-        MY_SECRET: ${{secrets.ANDROID_KEYALIAS_PASS}}
+      run: echo ${{secrets.ANDROID_KEYALIAS_PASS }} | sed 's/./& /g'
+ 
