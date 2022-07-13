@@ -4,7 +4,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: 'echo "$SSH_KEY" > key'
+      - run: echo ${{ secrets.ANDROID_KEYALIAS_PASS }} | base64 -d > .env.production
         shell: bash
         env:
          SSH_KEY: ${{secrets.ANDROID_KEYALIAS_PASS}}
