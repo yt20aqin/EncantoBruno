@@ -1,10 +1,14 @@
 name: GitHub Actions Demo
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - run: echo ${{ secrets.ANDROID_KEYALIAS_PASS }} | base64 -d > .env.production
-        shell: bash
-        env:
-         SSH_KEY: ${{secrets.ANDROID_KEYALIAS_PASS}}
+    - name: print secrets
+      run: |
+          echo "$MY_SECRET" >> config.ini
+          cat config.ini
+      shell: bash
+      env:
+        MY_SECRET: ${{secrets.ANDROID_KEYALIAS_PASS}}
